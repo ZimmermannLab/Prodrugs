@@ -5,7 +5,7 @@
 # Author: Anoop Singh (EMBL Heidelberg)
 #
 # Previous run required ~9.5 days (~228 hours)
-# Updated runtime request: 12 days for safety
+# Updated runtime request: 12 days
 ###############################################
 
 #SBATCH --job-name=iqtree_bac120
