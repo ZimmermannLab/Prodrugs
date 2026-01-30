@@ -35,7 +35,7 @@ This repository provides resources and scripts for analyzing the Unified Human G
 ### IQ-TREE Phylogenetic Analysis
 The IQ-TREE SLURM script performs large-scale phylogenetic tree construction using the MGnify `bac120_alignment.faa` dataset.
 
-1. Downloads a precomputed `bac120_alignment.faa.gz` file.
+1. Downloads a precomputed [bac120_alignment.faa.gz](https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/human-gut/v2.0.2/phylogenies/bac120_alignment.faa.gz) file. The script can automatically download this file during execution.
 2. Runs IQ-TREE version **3.0.1** as a SLURM job to perform phylogenetic analysis on the `bac120_alignment.faa` dataset.
 
 #### Example:
