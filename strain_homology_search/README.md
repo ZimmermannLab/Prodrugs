@@ -52,7 +52,7 @@ This directory contains scripts for downloading genomes of 69 panel strains [pro
 - Downloads may require substantial disk space; run on a machine with sufficient storage and a stable internet connection.
 - For reproducibility, note the author/date strings in the scripts (author: Resul Gökberk Elgin, 2025).
 
-## Citation
+## **Contact**
 
 If you use these scripts in your research, please cite:  
 - Prodrugs [Ting-Hao Kuo et al., bioRxiv (2025)](https://www.biorxiv.org/content/10.64898/2025.12.09.692405v1)  
