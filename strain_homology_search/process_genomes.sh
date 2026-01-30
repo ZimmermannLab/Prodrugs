@@ -7,14 +7,12 @@
 # Then, fingerprints the proteins in the fasta file by the origin of 
 # genomes and concatenates the protein fasta files in one master fasta.
 ######################################################################
-By Resul Gökberk Elgin (2025)
+# By Resul Gökberk Elgin (2025)
 ######################################################################
 
 #!/bin/bash
 
 # Load the conda env.
-module load Miniforge3
-source <(conda shell.bash hook)
 conda activate ncbi_datasets 
 
 # Read the file and execute datasets download
