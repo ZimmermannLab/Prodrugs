@@ -1,6 +1,6 @@
 # Cheminformatics Analysis
 
-This directory contains scripts for chemical classification [classification.r](https://github.com/ZimmermannLab/Prodrugs/blob/main/carboxyl_drug_screen/classification.r) and UMAP-based visualization of carboxyl-containing drug compounds from DrugBank database [DrugBank.ipynb](https://github.com/ZimmermannLab/Prodrugs/blob/main/carboxyl_drug_screen/DrugBank.ipynb).
+This directory contains scripts for chemical classification [classification.r](https://github.com/ZimmermannLab/Prodrugs/blob/main/carboxyl_drug_screen/classification.r) and UMAP-based visualization of carboxyl-containing drug compounds against the small molecules in DrugBank database [DrugBank.ipynb](https://github.com/ZimmermannLab/Prodrugs/blob/main/carboxyl_drug_screen/DrugBank.ipynb).
 
 ## Overview
 
@@ -39,7 +39,7 @@ This directory contains scripts for chemical classification [classification.r](h
 
 ### Additional Requirements
 - **DrugBank.v5_1_13 XML/CSV**: 
-Academic License is free and available for researchers once their eligibility criteria is approved by the DrugBank Team. The useful categories from the approved downloaded XML file are extracted into a CSV file for easier data usage within this notebook. Please refer to the notebook [parse.ipynb](https://github.com/dhimmel/drugbank/blob/gh-pages/parse.ipynb) by [Daniel Himmelstein](https://github.com/dhimmel)
+Academic License is free and available for researchers once their eligibility criteria is approved by the DrugBank Team. The useful categories from the approved downloaded XML file are extracted into a CSV file for easier data usage within this notebook. Please refer to the notebook [parse.ipynb](https://github.com/dhimmel/drugbank/blob/gh-pages/parse.ipynb) by [Daniel Himmelstein](https://github.com/dhimmel) to parse the XML file after acquiring the usage licence.
 - **Internet connection**: Required for ClassyFire API calls and PubChem lookups
 
 ---
@@ -116,9 +116,6 @@ Th expected runtime depends on number of compounds in your input data
 
 
 ## Possible Troubleshooting
-
-**Issue**: RDKit import fails
-- **Solution**: Use conda installation: `conda install -c conda-forge rdkit`
 
 **Issue**: ClassyFire API timeout
 - **Solution**: Internet connection required. API may be temporarily down; retry later.
