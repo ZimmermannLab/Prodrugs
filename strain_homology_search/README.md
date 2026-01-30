@@ -1,6 +1,7 @@
 # Strain Homology Search
 This directory contains scripts for downloading genomes of 69 panel strains [process_genomes.sh](https://github.com/ZimmermannLab/Prodrugs/blob/main/strain_homology_search/process_genomes.sh) and performing homology search [blastp.sh](https://github.com/ZimmermannLab/Prodrugs/blob/main/strain_homology_search/blastp.sh).
 
+You can directly download the panel genomes with the link https://oc.embl.de/index.php/s/wfDbjy9ZYGbzuhN
 
 ## Overview
 - `process_genomes.sh`  
