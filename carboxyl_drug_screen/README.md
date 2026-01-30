@@ -74,7 +74,7 @@ remotes::install_github('aberHRML/classyfireR')
 ### DrugBank.ipynb 
 
 **Input files**:
-- Main dataset: `SI_Table20_COOHdrug_forZM.csv` or `TK001D6_COOH_record_20250103_withMethylSMILES_cut.csv`
+- Main dataset: two tables based on the SI_Table20 from the manuscript,`SI_Table20_COOHdrug_forZM.csv` or `TK001D6_COOH_record_20250103_withMethylSMILES_cut.csv`
 - DrugBank CSV: `Drugbank/v5_1_13/FullDrugBank_XMLtoCSVv5_1_13.csv` (requires licence; see above to access DrugBank)
 
 **Main Steps**:
