@@ -46,7 +46,8 @@ sbatch iqtree_bac120.sbatch
 > **Note:** Modify the SLURM parameters in the script (e.g., `--time`, `--cpus-per-task`, `--mem`) according to your computational resources and job requirements.
 
 #### Requirements:
-- IQ-TREE version **3.0.1** installed (via Conda: activate `iqtree3` environment).
+- IQ-TREE installed (e.g., via Conda/Mamba, module system, or a local install). Ensure `iqtree` is available in your `PATH`.
+
 - SLURM for job scheduling.
 
 ### Expected Outputs:
