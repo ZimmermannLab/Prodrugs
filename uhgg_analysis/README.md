@@ -81,19 +81,17 @@ If you use this code or data as part of your research, please cite the following
 1. **Prodrugs (Ting-Hao Kuo et al., bioRxiv, 2025)**
    - Preprint: Gut bacteria generate prodrugs in situ increasing systemic drug exposure.
    - DOI: [10.64898/2025.12.09.692405](https://doi.org/10.64898/2025.12.09.692405)
-   - bioRxiv page: https://www.biorxiv.org/content/10.64898/2025.12.09.692405v1
 
 2. **UHGG (Unified Human Gastrointestinal Genome catalog)**
    - Almeida, A., Nayfach, S., Boland, M. et al. *A unified catalog of 204,938 reference genomes from the human gut microbiome.* **Nature Biotechnology** 39, 105–114 (2021).
    - DOI: [10.1038/s41587-020-0603-3](https://doi.org/10.1038/s41587-020-0603-3)
 
-3. **IQ-TREE**
-   - Minh, B.Q., Schmidt, H.A., Chernomor, O. et al. *IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era.* **Molecular Biology and Evolution** 37(5), 1530–1534 (2020).
-     - DOI: [10.1093/molbev/msaa015](https://doi.org/10.1093/molbev/msaa015)
-   - (If using IQ-TREE 3 features / version 3.x) Wong, T.K.F. et al. *IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models* (2025).
-     - DOI: [10.32942/X2P62N](https://doi.org/10.32942/X2P62N)
+3. **IQ-TREE 3**
+   - Wong, T.K.F., Ly-Trong, N., Ren, H., Baños, H., Roger, A.J., Susko, E., Bielow, C., De Maio, N., Goldman, N., Hahn, M.W., Huttley, G., Lanfear, R., Minh, B.Q. (2025).
+     *IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.*
+   - DOI: [10.32942/X2P62N](https://doi.org/10.32942/X2P62N)
    - Website: https://iqtree.github.io/
-
+ 
 4. **APE (Analysis of Phylogenetics and Evolution)**
    - Paradis, E. and Schliep, K. *ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R.* **Bioinformatics** 35(3), 526–528 (2019).
    - DOI: [10.1093/bioinformatics/bty633](https://doi.org/10.1093/bioinformatics/bty633)
