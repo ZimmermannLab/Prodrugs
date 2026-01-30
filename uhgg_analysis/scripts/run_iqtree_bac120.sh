@@ -17,7 +17,7 @@
 #SBATCH -N 1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
-#SBATCH --mem=32G
+#SBATCH --mem-per-cpu=4G
 
 # Log files
 #SBATCH -e sbatch_logs/%x_%j_err.txt

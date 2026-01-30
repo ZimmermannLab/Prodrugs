@@ -9,6 +9,6 @@
 
 #!/bin/bash
 
-./ncbi-blast-2.16.0+/bin/makeblastdb -in mapping_69strains_genomicfp_ws.fasta -title mapping69blastDB -dbtype prot
+./ncbi-blast-2.16.0+/bin/makeblastdb -in mapping_69strains_genomicfp.fasta -title mapping69blastDB -dbtype prot
 
-./ncbi-blast-2.16.0+/bin/blastp -db mapping_69strains_genomicfp_ws.fasta -query bf2170.fasta -out bf2170blastp -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore" -qcov_hsp_perc 50
+./ncbi-blast-2.16.0+/bin/blastp -db mapping_69strains_genomicfp.fasta -query bf2170.fasta -out bf2170blastp -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore" -qcov_hsp_perc 50
