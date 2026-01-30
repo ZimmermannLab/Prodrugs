@@ -4,7 +4,7 @@
 # Script requires the installation of NCBI blastp tool. Please see the
 # installation instructions at https://www.ncbi.nlm.nih.gov/books/NBK569861/
 ######################################################################
-By Resul Gökberk Elgin (2025)
+# By Resul Gökberk Elgin (2025)
 ######################################################################
 
 #!/bin/bash
